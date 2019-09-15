@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66D28BEB-9B64-44B6-9483-13CC28839227"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C54CB84-7CE3-4DA2-9A78-3501BD7C9B61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/NotificationService.swift"
+            timestampString = "578618578.4415751"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "makeNotifications(notifications:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2126F99-60F4-4E38-80AC-63ED4510A71A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ModalPopupViewController.swift"
+            timestampString = "579190766.337405"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "okTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "916D33F9-44C8-4B84-8B59-A209E23B3C6B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Models/Barber.swift"
+            timestampString = "584391396.611519"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "init(snapshot:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F0DB0AB-CD1A-46C4-91ED-3A80493511C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Models/Barber.swift"
+            timestampString = "584391396.617676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "init(snapshot:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A79EF4E7-2D8F-4B11-87F9-AE682CD867E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/DetailViewController.swift"
+            timestampString = "584288069.8345031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45075E49-D844-421F-B0CF-5F06A6D00B36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/DetailViewController.swift"
+            timestampString = "584288069.834653"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "appointmentTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6CFF451-2A83-49FD-BD5C-A8F435467100"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewController.swift"
+            timestampString = "584217539.269877"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "loginTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0591800-0558-4A32-AD47-17E3684D7FEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/SquareChargeApi.swift"
+            timestampString = "580670044.839337"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "processRefund(transactionId:locationId:tenderId:amount:key:OAuthToken:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "471EC4D8-8C84-45B6-B12E-DCDA399FCD91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/SquareChargeApi.swift"
+            timestampString = "580670044.83943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "processPayment(nonce:amount:key:OAuthToken:isSubscribed:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FBF0B89-6002-41C9-BBCE-629D4FE5156F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewController.swift"
+            timestampString = "584217539.270033"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "loginTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3673BD0-395D-42FC-BB4F-F87C3B73AF38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Barber View Controllers/EditProfileViewController.swift"
+            timestampString = "584471665.139027"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE6BD13A-616A-4739-93F5-F0B9E5244AE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Barber View Controllers/ModalPopupViewController3.swift"
+            timestampString = "578249109.251211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "okTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD673084-51F2-46C0-AB9A-1D664CBCF63C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/SquareChargeApi.swift"
+            timestampString = "580670044.839512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "processPayment(nonce:amount:key:OAuthToken:isSubscribed:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E017C67-B5E5-4D31-8CCC-875EB171A045"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.338029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "showAlert(_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44A3D754-5B36-442F-BB8F-E9C81E7180E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.338192"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "showAlert(_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A3F7797-92D7-4D5C-8E99-7976A98EA793"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.338264"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "showAlert(_:_:_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A3F7797-92D7-4D5C-8E99-7976A98EA793 - bc11856e50cc0827"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Erik_Barbershop_App.ViewAppointmentsController2.showAlert(Swift.String, Swift.String, Swift.Int) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/ViewAppointmentsController2.swift"
+                  timestampString = "577548072.948527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "1164">
+               </Location>
+               <Location
+                  uuid = "4A3F7797-92D7-4D5C-8E99-7976A98EA793 - 3c3e74ea3430f8e5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Erik_Barbershop_App.Barber&gt;) -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in Erik_Barbershop_App.ViewAppointmentsController2.showAlert(Swift.String, Swift.String, Swift.Int) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/ViewAppointmentsController2.swift"
+                  timestampString = "577548072.950528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5667EC63-34B8-4189-8F9E-7AD77BF58A74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.338313"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "showActionSheet(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C2EFCE7-E4FC-4908-875B-4E187155B675"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.338357"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BA71455-3A82-440C-B5AC-7D1EA3F8D0A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.3383991"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "tableView(_:editActionsForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BA71455-3A82-440C-B5AC-7D1EA3F8D0A7 - 6f2312d992021dc3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableViewRowAction, Foundation.IndexPath) -&gt; () in Erik_Barbershop_App.ViewAppointmentsController2.tableView(_: __C.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__C.UITableViewRowAction&gt;&gt;"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/ViewAppointmentsController2.swift"
+                  timestampString = "577561609.983063"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "5856">
+               </Location>
+               <Location
+                  uuid = "8BA71455-3A82-440C-B5AC-7D1EA3F8D0A7 - 6f2312d992021dc3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableViewRowAction, Foundation.IndexPath) -&gt; () in Erik_Barbershop_App.ViewAppointmentsController2.tableView(_: __C.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__C.UITableViewRowAction&gt;&gt;"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/ViewAppointmentsController2.swift"
+                  timestampString = "577561609.985162"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "6584">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88EFDBE4-055B-4717-9B47-B2B34693F132"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/NotificationService.swift"
+            timestampString = "578618578.443146"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
+            landmarkName = "makeFutureNotifications(notifications:daysToAdd:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D12CEB3C-1C51-46F8-AA0C-47B1141B6A09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/NotificationService.swift"
+            timestampString = "578618578.44327"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "322"
+            endingLineNumber = "322"
+            landmarkName = "removeFutureNotifications(notifications:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A25BF410-1275-4A7C-AA3A-274BBDC68CFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/DetailViewController.swift"
+            timestampString = "584288069.835148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A25BF410-1275-4A7C-AA3A-274BBDC68CFF - 55ea392b74ece766"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Erik_Barbershop_App.DetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/DetailViewController.swift"
+                  timestampString = "577916135.041582"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "142">
+               </Location>
+               <Location
+                  uuid = "A25BF410-1275-4A7C-AA3A-274BBDC68CFF - 316b884fe6eb474b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Erik_Barbershop_App.Barber&gt;) -&gt; () in Erik_Barbershop_App.DetailViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/DetailViewController.swift"
+                  timestampString = "577916135.0441951"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "110">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "623EDDE2-0A56-4FB7-86E1-47B1BB94AEED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ModalPopupViewController.swift"
+            timestampString = "579190766.338485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "okTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38644EA8-380F-4530-A0D6-0560588B7C26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/LocalStorageService.swift"
+            timestampString = "584293915.224041"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "clearOutdatedAppointmentKeys()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EC3A582-E984-4EE4-9158-5BD3576D62E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.33855"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5EC3A582-E984-4EE4-9158-5BD3576D62E5 - 1c2f0de2c2bb73a0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Erik_Barbershop_App.ViewAppointmentsController2.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/ViewAppointmentsController2.swift"
+                  timestampString = "577920657.421309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "5EC3A582-E984-4EE4-9158-5BD3576D62E5 - 5d31d8ccac952782"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Erik_Barbershop_App.Appointment&gt;) -&gt; () in Erik_Barbershop_App.ViewAppointmentsController2.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/View%20Controllers/User%20View%20Controllers/ViewAppointmentsController2.swift"
+                  timestampString = "577920657.4234509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68EA8982-8A76-4ABA-A0D0-F8D2012CD7EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/AppointmentService.swift"
+            timestampString = "578618578.443717"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "getAppointments(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E258F90A-24B8-4BCB-9C9F-8E56CA53C027"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/BarbershopsViewController.swift"
+            timestampString = "584293915.224175"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F158A9E-A7FA-4FB4-8AAB-E004951D9B19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/BarbershopsViewController.swift"
+            timestampString = "584293915.224232"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9FE7B33-550F-4BF9-B337-A034742222B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/BarbershopsViewController.swift"
+            timestampString = "584293915.224292"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11D86A0E-7996-49DF-90EA-0DB95E4229E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/BarbershopsViewController.swift"
+            timestampString = "584293915.224347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A4386F4-7BFE-4EB5-A749-610F4DEF7D95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/BarbershopsViewController.swift"
+            timestampString = "584293915.224395"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27E42AD4-AFCA-4059-8EE9-CF950624BCC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/BarbershopsViewController.swift"
+            timestampString = "584293915.224454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F898C452-B5BD-4204-BA99-D87403F3E510"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.338672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "showActionSheet(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DDF61DA-C255-4338-BDEB-77015F915C34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Models/Appointment.swift"
+            timestampString = "579190766.338717"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "init(snapshot:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A45ACA2-58AC-48EF-A4D7-1CC75BD7DFC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/BarbershopsViewController.swift"
+            timestampString = "584293915.224552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0C5E328-FDB9-4CF1-B818-7CF4AB46729C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/BarbershopService.swift"
+            timestampString = "584287480.527751"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "BarbershopService"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B0C5E328-FDB9-4CF1-B818-7CF4AB46729C - 8b0c12187b70650a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Erik_Barbershop_App.BarbershopService.getBarbershopDays(barbershopId: Swift.String, completion: (Swift.Array&lt;Swift.Substring&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/Services/BarbershopService.swift"
+                  timestampString = "578248894.583957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "B0C5E328-FDB9-4CF1-B818-7CF4AB46729C - c5746bf1f76eccee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in static Erik_Barbershop_App.BarbershopService.getBarbershopDays(barbershopId: Swift.String, completion: (Swift.Array&lt;Swift.Substring&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Erik Barbershop App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Swifty%20Stuff%20/Erik%20Barbershop%20App/Erik%20Barbershop%20App/Services/BarbershopService.swift"
+                  timestampString = "578248894.58689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "165">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B5E65E8-5468-4875-B0AA-2567E1A456FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Barber View Controllers/SetAvailabilityViewController.swift"
+            timestampString = "578618578.444953"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBE0ACBD-990D-4503-A447-0FE9C6F21D97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Manager VCs/SetAvailabilityViewController2.swift"
+            timestampString = "578618578.445047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B91F747-B15A-4637-B3AF-37984DB6D357"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Barber View Controllers/SetAvailabilityViewController.swift"
+            timestampString = "578618578.445125"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3791E72F-030D-42F1-BC48-2AC934EF51AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Master VCs/HoursViewController.swift"
+            timestampString = "581893234.869266"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "confirmTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "617CE20D-80E7-4715-8C4B-566BA2284A03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ModalPopupViewController.swift"
+            timestampString = "579190766.338845"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "366"
+            endingLineNumber = "366"
+            landmarkName = "paymentAuthorizationViewController(_:didAuthorizePayment:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDC166A0-95E9-4ED8-BAC9-A394AD22EED1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ModalPopupViewController.swift"
+            timestampString = "579190766.338894"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "368"
+            endingLineNumber = "368"
+            landmarkName = "paymentAuthorizationViewController(_:didAuthorizePayment:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BB9AB99-ED4A-46E2-8529-7E8FD40CEF3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/ViewAppointmentsController2.swift"
+            timestampString = "579190766.338936"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
+            landmarkName = "showAlert(_:_:_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "780575AD-2558-47F3-80C8-5F216C801716"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/User View Controllers/SetAppointmentViewController.swift"
+            timestampString = "584041209.729091"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "419"
+            endingLineNumber = "419"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9A64E24-9BD1-4B3D-B69F-CA2CF0003FF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/Services/BarbershopService.swift"
+            timestampString = "584287480.529824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "setBarbershopPrices(for:prices:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2F09DD6-5372-473B-A75A-6E820F1B513C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Manager VCs/PricesViewController2.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D80B2859-8646-44B1-A3AA-ABB8641F8AAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Master VCs/PricesViewController.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "addPriceTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17A13F5F-D160-4D27-9260-0A0FD9671F84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Erik Barbershop App/View Controllers/Manager VCs/EditBarbershopProfileViewController.swift"
+            timestampString = "584471104.8410341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "editBioButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

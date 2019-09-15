@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6FAA63C48A3F451BD1E291 /* Pods_Erik_Barbershop_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C83C671F9E20C0066490CF /* Pods_Erik_Barbershop_App.framework */; };
+		D31BC1302209B06100C50159 /* SetAvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BC12F2209B06100C50159 /* SetAvailabilityViewController.swift */; };
+		D31BC1322209B42C00C50159 /* DayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BC1312209B42C00C50159 /* DayTableViewCell.swift */; };
+		D32083C5220EFF890032B82F /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32083C4220EFF890032B82F /* AlertService.swift */; };
+		D322F95E21FF1F030006A699 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D322F95D21FF1F030006A699 /* EditProfileViewController.swift */; };
+		D3280F1D21F732650085E357 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3280F1C21F732650085E357 /* DetailViewController.swift */; };
+		D3280F1F21F793600085E357 /* SetAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3280F1E21F793600085E357 /* SetAppointmentViewController.swift */; };
+		D33ADB10221AD4F100E60F8E /* ViewAppointmentsController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33ADB0F221AD4F100E60F8E /* ViewAppointmentsController2.swift */; };
+		D3507669223E60AB000D194F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3507668223E60AB000D194F /* Reachability.swift */; };
+		D36C526922007520008F11C1 /* ModalPopupViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36C526822007520008F11C1 /* ModalPopupViewController2.swift */; };
+		D36C526B22007EB0008F11C1 /* ModalPopupViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36C526A22007EB0008F11C1 /* ModalPopupViewController3.swift */; };
+		D371765021FCFB9F00E3C3F4 /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371764F21FCFB9F00E3C3F4 /* LocalStorageService.swift */; };
+		D371765221FD072A00E3C3F4 /* AppointmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371765121FD072A00E3C3F4 /* AppointmentService.swift */; };
+		D38BC2FF2224A50400170812 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BC2FE2224A50400170812 /* NotificationService.swift */; };
+		D3D0BC2E2220900100E8E747 /* SetdimViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0BC2D2220900100E8E747 /* SetdimViewProtocol.swift */; };
+		D3DC762B21F5E1A700D54455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC762A21F5E1A700D54455 /* AppDelegate.swift */; };
+		D3DC762D21F5E1A700D54455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC762C21F5E1A700D54455 /* ViewController.swift */; };
+		D3DC763021F5E1A700D54455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DC762E21F5E1A700D54455 /* Main.storyboard */; };
+		D3DC763221F5E1A900D54455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DC763121F5E1A900D54455 /* Assets.xcassets */; };
+		D3DC763521F5E1A900D54455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DC763321F5E1A900D54455 /* LaunchScreen.storyboard */; };
+		D3DC763D21F5EAE500D54455 /* Barber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC763C21F5EAE500D54455 /* Barber.swift */; };
+		D3DC764021F5EB8800D54455 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC763F21F5EB8800D54455 /* Appointment.swift */; };
+		D3DC764221F5ECA700D54455 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC764121F5ECA700D54455 /* User.swift */; };
+		D3DC764421F5ED2A00D54455 /* BarberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC764321F5ED2A00D54455 /* BarberCell.swift */; };
+		D3DC764721F5F03B00D54455 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3DC764621F5F03A00D54455 /* GoogleService-Info.plist */; };
+		D3DC764921F5F39A00D54455 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC764821F5F39A00D54455 /* Photo.swift */; };
+		D3DC764C21F5F55C00D54455 /* BarberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC764B21F5F55C00D54455 /* BarberService.swift */; };
+		D3DC765121F5FA0D00D54455 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC765021F5FA0D00D54455 /* Constants.swift */; };
+		D3DC765321F63F6900D54455 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC765221F63F6900D54455 /* PhotoService.swift */; };
+		D3E15EE2222D51780031705A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E15EE1222D51780031705A /* Notification.swift */; };
+		D3ED5C442214D95F00650FBA /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED5C432214D95F00650FBA /* TimeService.swift */; };
+		D3F15D3C21F8849A009D0309 /* ModalPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F15D3B21F8849A009D0309 /* ModalPopupViewController.swift */; };
+		D3F15D4521F8A526009D0309 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F15D4421F8A526009D0309 /* NotificationService.swift */; };
+		D3F15D4921F8A526009D0309 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3F15D4221F8A526009D0309 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3FCCB9521FDC864005602C9 /* ViewAppointmentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FCCB9421FDC864005602C9 /* ViewAppointmentsController.swift */; };
+		D3FCCB9721FDC926005602C9 /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FCCB9621FDC926005602C9 /* AppointmentCell.swift */; };
+		D3FCCB9921FDE0F9005602C9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FCCB9821FDE0F9005602C9 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3F15D4721F8A526009D0309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DC761F21F5E1A700D54455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F15D4121F8A526009D0309;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3F15D4D21F8A526009D0309 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3F15D4921F8A526009D0309 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26C83C671F9E20C0066490CF /* Pods_Erik_Barbershop_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erik_Barbershop_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA3A84632596BB76C523E1F /* Pods-Erik Barbershop App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erik Barbershop App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Erik Barbershop App/Pods-Erik Barbershop App.debug.xcconfig"; sourceTree = "<group>"; };
+		A9CB8E0DE23FA43772CF7073 /* Pods-Erik Barbershop App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erik Barbershop App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Erik Barbershop App/Pods-Erik Barbershop App.release.xcconfig"; sourceTree = "<group>"; };
+		D31BC12F2209B06100C50159 /* SetAvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAvailabilityViewController.swift; sourceTree = "<group>"; };
+		D31BC1312209B42C00C50159 /* DayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewCell.swift; sourceTree = "<group>"; };
+		D32083C4220EFF890032B82F /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		D322F95D21FF1F030006A699 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		D3280F1C21F732650085E357 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D3280F1E21F793600085E357 /* SetAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAppointmentViewController.swift; sourceTree = "<group>"; };
+		D33ADB0F221AD4F100E60F8E /* ViewAppointmentsController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppointmentsController2.swift; sourceTree = "<group>"; };
+		D3507668223E60AB000D194F /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D36C526822007520008F11C1 /* ModalPopupViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPopupViewController2.swift; sourceTree = "<group>"; };
+		D36C526A22007EB0008F11C1 /* ModalPopupViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPopupViewController3.swift; sourceTree = "<group>"; };
+		D371764F21FCFB9F00E3C3F4 /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		D371765121FD072A00E3C3F4 /* AppointmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentService.swift; sourceTree = "<group>"; };
+		D38BC2FE2224A50400170812 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D3D0BC2D2220900100E8E747 /* SetdimViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetdimViewProtocol.swift; sourceTree = "<group>"; };
+		D3DC762721F5E1A700D54455 /* Erik Barbershop App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Erik Barbershop App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC762A21F5E1A700D54455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3DC762C21F5E1A700D54455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3DC762F21F5E1A700D54455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3DC763121F5E1A900D54455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DC763421F5E1A900D54455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3DC763621F5E1A900D54455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DC763C21F5EAE500D54455 /* Barber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barber.swift; sourceTree = "<group>"; };
+		D3DC763F21F5EB8800D54455 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		D3DC764121F5ECA700D54455 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D3DC764321F5ED2A00D54455 /* BarberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberCell.swift; sourceTree = "<group>"; };
+		D3DC764621F5F03A00D54455 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3DC764821F5F39A00D54455 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D3DC764B21F5F55C00D54455 /* BarberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberService.swift; sourceTree = "<group>"; };
+		D3DC765021F5FA0D00D54455 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3DC765221F63F6900D54455 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		D3E15EE1222D51780031705A /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		D3ED5C432214D95F00650FBA /* TimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeService.swift; sourceTree = "<group>"; };
+		D3F15D3B21F8849A009D0309 /* ModalPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPopupViewController.swift; sourceTree = "<group>"; };
+		D3F15D3D21F8997D009D0309 /* Erik Barbershop App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Erik Barbershop App.entitlements"; sourceTree = "<group>"; };
+		D3F15D4221F8A526009D0309 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F15D4421F8A526009D0309 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D3F15D4621F8A526009D0309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FCCB9421FDC864005602C9 /* ViewAppointmentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAppointmentsController.swift; sourceTree = "<group>"; };
+		D3FCCB9621FDC926005602C9 /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		D3FCCB9821FDE0F9005602C9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DC762421F5E1A700D54455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6FAA63C48A3F451BD1E291 /* Pods_Erik_Barbershop_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F15D3F21F8A526009D0309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F3D9FC47B5E35F47BD6C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C83C671F9E20C0066490CF /* Pods_Erik_Barbershop_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD39140E39051A4A84352841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA3A84632596BB76C523E1F /* Pods-Erik Barbershop App.debug.xcconfig */,
+				A9CB8E0DE23FA43772CF7073 /* Pods-Erik Barbershop App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3D0BC2C22208FC500E8E747 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				D32083C4220EFF890032B82F /* AlertService.swift */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		D3DC761E21F5E1A700D54455 = {
+			isa = PBXGroup;
+			children = (
+				D3DC762921F5E1A700D54455 /* Erik Barbershop App */,
+				D3F15D4321F8A526009D0309 /* NotificationService */,
+				D3DC762821F5E1A700D54455 /* Products */,
+				CD39140E39051A4A84352841 /* Pods */,
+				48F3D9FC47B5E35F47BD6C7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DC762821F5E1A700D54455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC762721F5E1A700D54455 /* Erik Barbershop App.app */,
+				D3F15D4221F8A526009D0309 /* NotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DC762921F5E1A700D54455 /* Erik Barbershop App */ = {
+			isa = PBXGroup;
+			children = (
+				D3F15D3D21F8997D009D0309 /* Erik Barbershop App.entitlements */,
+				D3DC762A21F5E1A700D54455 /* AppDelegate.swift */,
+				D3D0BC2C22208FC500E8E747 /* Experimental */,
+				D3DC764E21F5F86D00D54455 /* Storyboards */,
+				D3DC764A21F5F54400D54455 /* Services */,
+				D3DC764F21F5F9F600D54455 /* Helpers */,
+				D3FDD95B223940B8005D9E79 /* Protocols */,
+				D3DC764D21F5F84200D54455 /* View Controllers */,
+				D3DC763121F5E1A900D54455 /* Assets.xcassets */,
+				D3DC763621F5E1A900D54455 /* Info.plist */,
+				D3DC764621F5F03A00D54455 /* GoogleService-Info.plist */,
+				D3DC763E21F5EAEF00D54455 /* Models */,
+				D3DC764521F5ED5D00D54455 /* Views */,
+			);
+			path = "Erik Barbershop App";
+			sourceTree = "<group>";
+		};
+		D3DC763E21F5EAEF00D54455 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC763C21F5EAE500D54455 /* Barber.swift */,
+				D3DC763F21F5EB8800D54455 /* Appointment.swift */,
+				D3E15EE1222D51780031705A /* Notification.swift */,
+				D3DC764821F5F39A00D54455 /* Photo.swift */,
+				D3DC764121F5ECA700D54455 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3DC764521F5ED5D00D54455 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC764321F5ED2A00D54455 /* BarberCell.swift */,
+				D31BC1312209B42C00C50159 /* DayTableViewCell.swift */,
+				D3FCCB9621FDC926005602C9 /* AppointmentCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3DC764A21F5F54400D54455 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D371764F21FCFB9F00E3C3F4 /* LocalStorageService.swift */,
+				D38BC2FE2224A50400170812 /* NotificationService.swift */,
+				D3ED5C432214D95F00650FBA /* TimeService.swift */,
+				D3DC764B21F5F55C00D54455 /* BarberService.swift */,
+				D371765121FD072A00E3C3F4 /* AppointmentService.swift */,
+				D3DC765221F63F6900D54455 /* PhotoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D3DC764D21F5F84200D54455 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFFCB62236FF7000596F84 /* User View Controllers */,
+				D3FFFCB72236FF8F00596F84 /* Barber View Controllers */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D3DC764E21F5F86D00D54455 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC762E21F5E1A700D54455 /* Main.storyboard */,
+				D3DC763321F5E1A900D54455 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D3DC764F21F5F9F600D54455 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC765021F5FA0D00D54455 /* Constants.swift */,
+				D3507668223E60AB000D194F /* Reachability.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D3F15D4321F8A526009D0309 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				D3F15D4421F8A526009D0309 /* NotificationService.swift */,
+				D3F15D4621F8A526009D0309 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		D3FDD95B223940B8005D9E79 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D3D0BC2D2220900100E8E747 /* SetdimViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D3FFFCB62236FF7000596F84 /* User View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC762C21F5E1A700D54455 /* ViewController.swift */,
+				D3280F1C21F732650085E357 /* DetailViewController.swift */,
+				D3280F1E21F793600085E357 /* SetAppointmentViewController.swift */,
+				D3F15D3B21F8849A009D0309 /* ModalPopupViewController.swift */,
+				D33ADB0F221AD4F100E60F8E /* ViewAppointmentsController2.swift */,
+			);
+			path = "User View Controllers";
+			sourceTree = "<group>";
+		};
+		D3FFFCB72236FF8F00596F84 /* Barber View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3FCCB9421FDC864005602C9 /* ViewAppointmentsController.swift */,
+				D322F95D21FF1F030006A699 /* EditProfileViewController.swift */,
+				D36C526822007520008F11C1 /* ModalPopupViewController2.swift */,
+				D36C526A22007EB0008F11C1 /* ModalPopupViewController3.swift */,
+				D31BC12F2209B06100C50159 /* SetAvailabilityViewController.swift */,
+				D3FCCB9821FDE0F9005602C9 /* SettingsViewController.swift */,
+			);
+			path = "Barber View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DC762621F5E1A700D54455 /* Erik Barbershop App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DC763921F5E1A900D54455 /* Build configuration list for PBXNativeTarget "Erik Barbershop App" */;
+			buildPhases = (
+				C5BF6DBA549DF1C8A2D0A9F1 /* [CP] Check Pods Manifest.lock */,
+				D3DC762321F5E1A700D54455 /* Sources */,
+				D3DC762421F5E1A700D54455 /* Frameworks */,
+				D3DC762521F5E1A700D54455 /* Resources */,
+				7FE2F4BF4B1C39874D7B44B8 /* [CP] Embed Pods Frameworks */,
+				9DA1D83E704383964A164B3C /* [CP] Copy Pods Resources */,
+				D3F15D4D21F8A526009D0309 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F15D4821F8A526009D0309 /* PBXTargetDependency */,
+			);
+			name = "Erik Barbershop App";
+			productName = "Erik Barbershop App";
+			productReference = D3DC762721F5E1A700D54455 /* Erik Barbershop App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3F15D4121F8A526009D0309 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F15D4A21F8A526009D0309 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				D3F15D3E21F8A526009D0309 /* Sources */,
+				D3F15D3F21F8A526009D0309 /* Frameworks */,
+				D3F15D4021F8A526009D0309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = D3F15D4221F8A526009D0309 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DC761F21F5E1A700D54455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Brian;
+				TargetAttributes = {
+					D3DC762621F5E1A700D54455 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					D3F15D4121F8A526009D0309 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D3DC762221F5E1A700D54455 /* Build configuration list for PBXProject "Erik Barbershop App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DC761E21F5E1A700D54455;
+			productRefGroup = D3DC762821F5E1A700D54455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DC762621F5E1A700D54455 /* Erik Barbershop App */,
+				D3F15D4121F8A526009D0309 /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DC762521F5E1A700D54455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC763521F5E1A900D54455 /* LaunchScreen.storyboard in Resources */,
+				D3DC763221F5E1A900D54455 /* Assets.xcassets in Resources */,
+				D3DC764721F5F03B00D54455 /* GoogleService-Info.plist in Resources */,
+				D3DC763021F5E1A700D54455 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F15D4021F8A526009D0309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FE2F4BF4B1C39874D7B44B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Erik Barbershop App/Pods-Erik Barbershop App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/SquareInAppPaymentsSDK/SquareInAppPaymentsSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SquareInAppPaymentsSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Erik Barbershop App/Pods-Erik Barbershop App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA1D83E704383964A164B3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Erik Barbershop App/Pods-Erik Barbershop App-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Erik Barbershop App/Pods-Erik Barbershop App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BF6DBA549DF1C8A2D0A9F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Erik Barbershop App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DC762321F5E1A700D54455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F15D3C21F8849A009D0309 /* ModalPopupViewController.swift in Sources */,
+				D3D0BC2E2220900100E8E747 /* SetdimViewProtocol.swift in Sources */,
+				D33ADB10221AD4F100E60F8E /* ViewAppointmentsController2.swift in Sources */,
+				D3280F1D21F732650085E357 /* DetailViewController.swift in Sources */,
+				D3DC765321F63F6900D54455 /* PhotoService.swift in Sources */,
+				D3FCCB9721FDC926005602C9 /* AppointmentCell.swift in Sources */,
+				D3DC764921F5F39A00D54455 /* Photo.swift in Sources */,
+				D31BC1322209B42C00C50159 /* DayTableViewCell.swift in Sources */,
+				D3507669223E60AB000D194F /* Reachability.swift in Sources */,
+				D3280F1F21F793600085E357 /* SetAppointmentViewController.swift in Sources */,
+				D3DC763D21F5EAE500D54455 /* Barber.swift in Sources */,
+				D322F95E21FF1F030006A699 /* EditProfileViewController.swift in Sources */,
+				D3DC762D21F5E1A700D54455 /* ViewController.swift in Sources */,
+				D3DC762B21F5E1A700D54455 /* AppDelegate.swift in Sources */,
+				D3FCCB9521FDC864005602C9 /* ViewAppointmentsController.swift in Sources */,
+				D3DC764421F5ED2A00D54455 /* BarberCell.swift in Sources */,
+				D36C526B22007EB0008F11C1 /* ModalPopupViewController3.swift in Sources */,
+				D38BC2FF2224A50400170812 /* NotificationService.swift in Sources */,
+				D371765221FD072A00E3C3F4 /* AppointmentService.swift in Sources */,
+				D3DC764C21F5F55C00D54455 /* BarberService.swift in Sources */,
+				D3DC764221F5ECA700D54455 /* User.swift in Sources */,
+				D371765021FCFB9F00E3C3F4 /* LocalStorageService.swift in Sources */,
+				D3E15EE2222D51780031705A /* Notification.swift in Sources */,
+				D36C526922007520008F11C1 /* ModalPopupViewController2.swift in Sources */,
+				D31BC1302209B06100C50159 /* SetAvailabilityViewController.swift in Sources */,
+				D3DC764021F5EB8800D54455 /* Appointment.swift in Sources */,
+				D3ED5C442214D95F00650FBA /* TimeService.swift in Sources */,
+				D3DC765121F5FA0D00D54455 /* Constants.swift in Sources */,
+				D32083C5220EFF890032B82F /* AlertService.swift in Sources */,
+				D3FCCB9921FDE0F9005602C9 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F15D3E21F8A526009D0309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F15D4521F8A526009D0309 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3F15D4821F8A526009D0309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F15D4121F8A526009D0309 /* NotificationService */;
+			targetProxy = D3F15D4721F8A526009D0309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3DC762E21F5E1A700D54455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DC762F21F5E1A700D54455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3DC763321F5E1A900D54455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DC763421F5E1A900D54455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3DC763721F5E1A900D54455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3DC763821F5E1A900D54455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DC763A21F5E1A900D54455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA3A84632596BB76C523E1F /* Pods-Erik Barbershop App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Erik Barbershop App/Erik Barbershop App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VP4X3DU6A;
+				INFOPLIST_FILE = "Erik Barbershop App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brian.Erik-Barbershop-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D3DC763B21F5E1A900D54455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CB8E0DE23FA43772CF7073 /* Pods-Erik Barbershop App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Erik Barbershop App/Erik Barbershop App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VP4X3DU6A;
+				INFOPLIST_FILE = "Erik Barbershop App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brian.Erik-Barbershop-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D3F15D4B21F8A526009D0309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VP4X3DU6A;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brian.Erik-Barbershop-App.NotificationService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3F15D4C21F8A526009D0309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VP4X3DU6A;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brian.Erik-Barbershop-App.NotificationService";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DC762221F5E1A700D54455 /* Build configuration list for PBXProject "Erik Barbershop App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC763721F5E1A900D54455 /* Debug */,
+				D3DC763821F5E1A900D54455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DC763921F5E1A900D54455 /* Build configuration list for PBXNativeTarget "Erik Barbershop App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC763A21F5E1A900D54455 /* Debug */,
+				D3DC763B21F5E1A900D54455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F15D4A21F8A526009D0309 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F15D4B21F8A526009D0309 /* Debug */,
+				D3F15D4C21F8A526009D0309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DC761F21F5E1A700D54455 /* Project object */;
+}

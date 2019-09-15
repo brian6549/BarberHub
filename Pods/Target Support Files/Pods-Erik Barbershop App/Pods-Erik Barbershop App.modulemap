@@ -1,0 +1,6 @@
+framework module Pods_Erik_Barbershop_App {
+  umbrella header "Pods-Erik Barbershop App-umbrella.h"
+
+  export *
+  module * { export * }
+}
