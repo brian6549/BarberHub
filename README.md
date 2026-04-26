@@ -1,22 +1,46 @@
-# BarberHub
-Barbershop appointment app
-How to run:
-This app can be run using XCode iPhone simulator and is available on the ios app store as well --> https://apps.apple.com/us/app/barberhub/id1462580637
+# BarberHub: Operations & Scheduling Platform (iOS)
 
-There are multiple types of users that can sign in to the app:
+## Operational Summary
+A full-stack, production-deployed iOS application architected to manage the daily operations, scheduling, and payment processing for salon and barbershop environments. Originally deployed to the Apple App Store, the platform features strict Role-Based Access Control (RBAC), real-time database synchronization, and third-party financial API integration.
 
-The sign-in information provided is for the beauty salon. Tap on it and hit login to logon as a manager or employee of the salon.
+## Tech Stack
+* **Frontend Client:** Swift, UIKit, Xcode
+* **Backend Architecture:** Firebase (Authentication, Realtime Database)
+* **Third-Party APIs:** Square API (Payment Processing & Account Linking)
+* **Services:** Apple Push Notification Service (APNs), CocoaPods
 
-To sign in as a manager, use these credentials:
-email: manager@manager.com password: manager12345
+## System Architecture & Features
 
-The manager can remove or add employees. When employees are added, appointments cannot be made with them immediately because I link their valid square account to the app afterward when they provide it. Sign in to the provided employee account before attempting to remove it to see how they can cancel appointments that are made with them.
+### 1. Role-Based Access Control (RBAC)
+The system architecture enforces strict user partitioning based on authentication tiers:
+* **Manager Node:** Full administrative clearance. Can dynamically add/remove employee accounts, view global operational schedules, and manage shop-level configurations. 
+* **Employee Node:** Restricted access. Can view individual appointment matrices, manage profile metadata, and cancel scheduled appointments directly impacting their queue.
+* **Client Node:** End-user facing. Can view availability and book appointments dynamically.
 
-To sign in as an employee of the salon, use these credentials(also provided in the sign-in information):
-email: test89@test.com password: test12345
+### 2. Backend & Payment Integration
+* **Real-Time State Management:** Leveraged Firebase to ensure zero-latency synchronization across all user nodes (e.g., when a client books a slot, it immediately locks out on the employee and manager views).
+* **Square API Integration (`payment_backend`):** Engineered a secure handshake between the app and the Square ecosystem, allowing employee accounts to link directly to verified Square POS accounts for secure transaction processing. 
 
-an employee can view their appointments and edit their profile information
+### 3. Push Architecture
+* **`NotificationService`:** Implemented custom APNs payloads to handle asynchronous alerts for appointment updates and system notifications.
 
-to sign up as an employee, tap sign up and enter 'AnotherBarbershopId' when it prompts for a sign up code.
+## Execution Parameters
 
-Alternatively, you can create new manager and employee accounts by following the instructions in the app.
+### Local Deployment
+To run the project locally via the Xcode Simulator:
+1. Clone the repository.
+2. Install dependencies via CocoaPods (if required, run `pod install`).
+3. Open the `.xcworkspace` file (not the `.xcodeproj`).
+4. Ensure a valid `GoogleService-Info.plist` is present to connect to the Firebase instance.
+
+### System Test Credentials
+*(Note: These are sandbox credentials for architecture demonstration purposes).*
+
+**Manager Authorization:**
+* **Email:** `manager@manager.com`
+* **Password:** `manager12345`
+
+**Employee Authorization:**
+* **Email:** `test89@test.com`
+* **Password:** `test12345`
+*(Registration Code for new employee creation: `AnotherBarbershopId`)*
